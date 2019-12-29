@@ -8,9 +8,7 @@
   https://beta.hackndo.com/
 
 
-<H2> Setting up active directory lab : <H2>
-  <p>  https://github.com/outflanknl/Invoke-ADLabDeployer </p>
-
+<H2> Setting up active directory lab : <H2> https://github.com/outflanknl/Invoke-ADLabDeployer 
 
 
 <H2> Bypassing Powershell execution policy issues : </H2>
