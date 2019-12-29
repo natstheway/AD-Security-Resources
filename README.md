@@ -35,8 +35,7 @@ Lateral Movement Automation :
   https://github.com/GoFetchAD/GoFetch
 
 Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
-Mimikatz :
-  https://github.com/gentilkiwi/mimikatz
+Mimikatz : https://github.com/gentilkiwi/mimikatz
 
 Spraykatz - Credentials gathering tool automating remote procdump and parse of lsass process
   https://github.com/aas-n/spraykatz
