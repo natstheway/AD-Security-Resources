@@ -24,34 +24,33 @@
 <p>PowerView / Powersploit :</p>
   <p>https://github.com/PowerShellMafia/PowerSploit</p>
 
--> AD Module :
+AD Module :
   https://github.com/samratashok/ADModule
 
--> Bloodhound
+Bloodhound
   https://github.com/BloodHoundAD/SharpHound
   https://github.com/BloodHoundAD/BloodHound
 
-
-==> Lateral Movement Automation :
+Lateral Movement Automation :
   https://github.com/GoFetchAD/GoFetch
 
-<H2> Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
--> Mimikatz :
+Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
+Mimikatz :
   https://github.com/gentilkiwi/mimikatz
 
--> Spraykatz - Credentials gathering tool automating remote procdump and parse of lsass process
+Spraykatz - Credentials gathering tool automating remote procdump and parse of lsass process
   https://github.com/aas-n/spraykatz
 
--> Mimikittenz - Reading credentians from process :
+Mimikittenz - Reading credentians from process :
   https://github.com/putterpanda/mimikittenz
 
--> Benjamin Delpy's Kekeo 
+Benjamin Delpy's Kekeo 
   https://github.com/gentilkiwi/kekeo/
 
--> Vincent LE TOUX's MakeMeEnterpriseAdmin
+Vincent LE TOUX's MakeMeEnterpriseAdmin
   https://github.com/vletoux/MakeMeEnterpriseAdmin
 
--> Rubeus :
+Rubeus :
   https://github.com/GhostPack/Rubeus
 
 <H2> Pingcastle - AD Security :
