@@ -10,7 +10,7 @@ Huge list of AD security resources available below :
   https://beta.hackndo.com/
 
 
-Setting up active directory lab : <H2> https://github.com/outflanknl/Invoke-ADLabDeployer 
+Setting up active directory lab :  https://github.com/outflanknl/Invoke-ADLabDeployer 
 
 Bypassing Powershell execution policy issues : </H2>
 
