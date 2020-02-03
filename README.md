@@ -69,7 +69,7 @@ Vincent LE TOUX's MakeMeEnterpriseAdmin
 Rubeus :
   https://github.com/GhostPack/Rubeus
 
-<H2> Pingcastle - AD Security :
+Pingcastle - AD Security :
   https://github.com/vletoux/pingcastle
 
 
