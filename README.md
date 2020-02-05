@@ -33,10 +33,14 @@ https://chickenpwny.github.io/concepts/bypass/
 <p>4. Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):
 Set-MpPreference -DisableRealtimeMonitoring $true
 
-<H2>5.  Domain Enumeration</h2>
+<p>5. Privesc 
+Run Invoke-AllChecks 
 <p>PowerView / Powersploit: https://github.com/PowerShellMafia/PowerSploit</p>
 
-<p><h3>ACL Enumeration and escalation :</h3></p>
+
+<H2>Domain Enumeration</h2>
+
+<p><h3>1. ACL Enumeration and escalation :</h3></p>
 <p>Some of the Active Directory object permissions and types that we as attackers are interested in:</p>
 <p><b>GenericAll</b> - full rights to the object (add users to a group or reset user's password)
 <p><b>GenericWrite</b> - update object's attributes (i.e logon script)
@@ -50,14 +54,14 @@ https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse
 AD Module :
   https://github.com/samratashok/ADModule
 
-Bloodhound
+<p>2. Bloodhound - Visualizing the attack patch and AD Objects
   https://github.com/BloodHoundAD/SharpHound
   https://github.com/BloodHoundAD/BloodHound
 
-Lateral Movement Automation :
+Lateral Movement Automation using Bloodhound data :
   https://github.com/GoFetchAD/GoFetch
 
-Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
+<p>3. Tools for Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
 Mimikatz : https://github.com/gentilkiwi/mimikatz
 
 Spraykatz - Credentials gathering tool automating remote procdump and parse of lsass process
@@ -75,10 +79,11 @@ Vincent LE TOUX's MakeMeEnterpriseAdmin
 Rubeus :
   https://github.com/GhostPack/Rubeus
 
-Pingcastle - AD Security :
+<p>4. Generate HTML report of AD Security Posture - Pingcastle :
   https://github.com/vletoux/pingcastle
 
 
+<p><h2> References : </h2>
 Huge list of AD security resources available below :
   https://adsecurity.org/
   https://www.harmj0y.net/
