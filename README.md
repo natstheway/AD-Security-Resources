@@ -2,7 +2,8 @@
 
 <p><h2>Setting up active directory lab :</h2>
 <p>https://github.com/outflanknl/Invoke-ADLabDeployer 
-
+<p> AutomatedLab - Works good for small labs based on HyperV
+ 
 <p><h2>Local Computer Enumeration and Privesc : </h2>
 
 <p>1. Bypass Execution Policy : 
@@ -30,10 +31,10 @@ Constrained Language consists of a number of restrictions that limit unconstrain
 https://github.com/padovah4ck/PSByPassCLM
 https://chickenpwny.github.io/concepts/bypass/
 
-<p>4. Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):
+<p>4. Turning of Windows Defender - Real Time Monitoring (for not letting exploits to be deleted):</p>
 Set-MpPreference -DisableRealtimeMonitoring $true
 
-<p>5. Privesc 
+<p>5. Privesc on Local Computer </p>
 Run Invoke-AllChecks 
 <p>PowerView / Powersploit: https://github.com/PowerShellMafia/PowerSploit</p>
 
