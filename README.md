@@ -41,6 +41,17 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 <H2> Recon of active directory objects :</h2>
 <p>PowerView / Powersploit: https://github.com/PowerShellMafia/PowerSploit</p>
 
+<h3>ACL Enumeration and escalation :</h3>
+Some of the Active Directory object permissions and types that we as attackers are interested in:
+<b>GenericAll</b> - full rights to the object (add users to a group or reset user's password)
+<b>GenericWrite</b> - update object's attributes (i.e logon script)
+<b>WriteOwner</b> - change object owner to attacker controlled user take over the object
+<b>WriteDACL</b> - modify object's ACEs and give attacker full control right over the object
+<b>AllExtendedRights</b> - ability to add user to a group or reset password
+<b>ForceChangePassword</b> - ability to change user's password
+<b>Self (Self-Membership)</b> - ability to add yourself to a group
+https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-active-directory-acls-aces
+
 AD Module :
   https://github.com/samratashok/ADModule
 
