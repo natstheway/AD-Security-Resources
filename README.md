@@ -83,7 +83,17 @@ Rubeus :
 <p>4. Generate HTML report of AD Security Posture - Pingcastle :
   https://github.com/vletoux/pingcastle
 
+<p>5 Delegation attacks 
 
+<p>5.1 Unconstrained Delegation
+When a user authenticates to a computer that has unresitricted kerberos delegation privilege turned on, authenticated user's TGT ticket gets saved to that computer's memory. It will be possible to extract the same once the system is compromised.
+ 
+<p>5.2 Constrained Delegation
+If you have compromised a user account or a computer (machine account) that has kerberos constrained delegation enabled, it's possible to impersonate any domain user (including administrator) and authenticate to a service that the user account is trusted to delegate to.
+
+<p>5.3 Resource Based Constrained Delegation
+It's possible to gain code execution with elevated privileges on a computer if you have WRITE privilege on that computer's AD object.
+ 
 <p><h2> References : </h2>
 Huge list of AD security resources available below :
   https://adsecurity.org/
