@@ -28,6 +28,13 @@ https://burmat.gitbook.io/security/hacking/domain-exploitation#user-and-computer
 <p>3. Constrained Language Mode :</p> 
 Constrained Language consists of a number of restrictions that limit unconstrained code execution on a locked-down system.  (https://devblogs.microsoft.com/powershell/powershell-constrained-language-mode/)
 
+AD Module usually goes undetected and can be used for enumerating from the system with CLM enabled.
+https://www.labofapenetrationtester.com/2018/10/domain-enumeration-from-PowerShell-CLM.html
+
+Few other interesting methods to bypass CLM 
+https://www.secjuice.com/powershell-constrainted-language-mode-bypass-using-runspaces/
+
+Other references : 
 https://github.com/padovah4ck/PSByPassCLM
 https://chickenpwny.github.io/concepts/bypass/
 
