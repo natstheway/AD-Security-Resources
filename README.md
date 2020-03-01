@@ -69,8 +69,7 @@ AD Module :
 <p>Command for extracting data using bloodhound :
 Invoke-BloodHount -CollectionMethod All </p>
 <p><i>NOTE : In case zip file upload does not yield any results, extract and upload file-by-file. That works ! </i></p>
-Lateral Movement Automation using Bloodhound data :
-  https://github.com/GoFetchAD/GoFetch
+<p> Lateral Movement Automation using Bloodhound data :   https://github.com/GoFetchAD/GoFetch</p>
 
 <p>3. Tools for Credential Dumping for all attacks (PTH, Kerberoasting, Golden Ticket Attack, Silver Ticket Attack, Skeleton Key Attack:
 Mimikatz : https://github.com/gentilkiwi/mimikatz
