@@ -66,6 +66,9 @@ AD Module :
   https://github.com/BloodHoundAD/SharpHound
   https://github.com/BloodHoundAD/BloodHound
 
+<p>Command for extracting data using bloodhound :
+Invoke-BloodHount -CollectionMethod All </p>
+<p><i>NOTE : In case zip file upload does not yield any results, extract and upload file-by-file. That works ! </i></p>
 Lateral Movement Automation using Bloodhound data :
   https://github.com/GoFetchAD/GoFetch
 
